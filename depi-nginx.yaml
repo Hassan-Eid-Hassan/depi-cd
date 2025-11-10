@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: depi
+spec:
+  containers:
+  - name: depi
+    image: nginx
